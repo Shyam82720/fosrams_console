@@ -1,0 +1,35 @@
+/* Style the pagination container (ul) */
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style individual pagination items (li) */
+.pagination li {
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
+    /* Add spacing between items */
+}
+
+/* Style pagination link (a) */
+.pagination li a {
+    display: block;
+    padding: 5px 10px;
+    background-color: #3490dc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the active pagination item */
+.pagination .active a {
+    background-color: #007bff;
+}
+
+/* Style the disabled pagination item */
+.pagination .disabled a {
+    background-color: #ddd;
+    pointer-events: none;
+}
